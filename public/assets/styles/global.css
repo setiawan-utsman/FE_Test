@@ -1,0 +1,12 @@
+#portal-page{
+/* background-image: url('../image/tree.jpg'); */
+background-size: cover;
+background-position: center;
+}
+
+ .card-backdrop {
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+ }
+
+ 
