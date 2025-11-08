@@ -47,5 +47,9 @@ Aplikasi ini memiliki sistem proteksi login, halaman dashboard, serta fitur CRUD
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/setiawan-utsman/fe_test.git
+git clone https://github.com/setiawan-utsman/FE_Test.git
+
+### Masuk ke Folder Project
+```bash 
+cd FE_Test
 
