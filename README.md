@@ -68,7 +68,7 @@ yarn install
 
 ## Jalankan Aplikasi
 ```bash 
-   npm run dev
+npm run dev
 ```
 Akses di browser:
 ```bash
