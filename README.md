@@ -48,8 +48,29 @@ Aplikasi ini memiliki sistem proteksi login, halaman dashboard, serta fitur CRUD
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/setiawan-utsman/FE_Test.git
+```
 
 ### Masuk ke Folder Project
 ```bash 
 cd FE_Test
+```
+
+## Install Dependencies
+## Menggunakan npm:
+
+```bash
+npm install
+```
+## Atau menggunakan yarn:
+```bash
+yarn install
+```
+
+## Jalankan Aplikasi
+```bash 
+   npm run dev
+```
+Akses di browser:
+```bash
+http://localhost:3000
 
