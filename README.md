@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛣️ Aplikasi Jasa Marga Traffic Service
 
-## Getting Started
+Aplikasi web internal untuk pengelolaan data lalu lintas (lalin) dan master gerbang, dikembangkan menggunakan **Next.js**, **Tailwind CSS**, **React Query**, **Shadcn/UI**, dan **React Hooks**.  
+Aplikasi ini memiliki sistem proteksi login, halaman dashboard, serta fitur CRUD untuk laporan lalu lintas dan master gerbang.
 
-First, run the development server:
+---
 
+## 🚀 Teknologi yang Digunakan
+
+| Teknologi | Deskripsi |
+|------------|------------|
+| **Next.js** | Framework React untuk SSR dan SSG |
+| **Tailwind CSS** | Library utility-first untuk styling responsif |
+| **React Query** | Data fetching dan caching state manajemen API |
+| **Shadcn/UI** | Komponen UI modern berbasis Radix dan Tailwind |
+| **React Hooks** | Pengelolaan state dan efek pada komponen fungsional |
+
+---
+
+## ⚙️ Fitur Utama
+
+### 🔐 Autentikasi
+- Sistem **Protect Login** agar halaman hanya dapat diakses oleh user yang sudah login.
+- Redirect otomatis ke halaman login jika belum terautentikasi.
+
+### 🧭 Dashboard
+- Tampilan ringkasan data laporan lalu lintas dan status sistem.
+- Akses cepat ke menu CRUD data.
+
+### 🗂️ CRUD Fitur
+1. **Laporan Lalin**
+   - Create, Read, Update, Delete data laporan lalu lintas.
+   - Validasi input sebelum penyimpanan.
+2. **Master Gerbang**
+   - Manajemen data gerbang tol secara dinamis.
+
+### 💡 Tampilan dan UX Tambahan
+- **Loading Splash Screen** — animasi singkat saat aplikasi pertama kali dimuat.  
+- **Service Loading State** — indikator loading saat memuat data dari API.  
+- **Service Error State** — tampilan error ketika API gagal diakses.  
+- **No Data State** — tampilan khusus ketika data kosong.
+
+---
+
+## 🧑‍💻 Cara Menjalankan Project di Lokal
+
+
+### 1. Clone Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/setiawan-utsman/fe_test.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
